@@ -1,0 +1,222 @@
+<!--
+Author: Yashwant Palisetty
+Author URL: https://www.facebook.com/yashu327
+-->
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Moments by AY</title>
+<link rel="shortcut icon" type="image/x-icon" href="images/title.png" />
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery-2.2.3.min.js"></script>
+<!-- Custom Theme files -->
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
+<!-- Custom Theme files -->
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); }
+</script>
+<!--Google Fonts-->
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto:100i,400" rel="stylesheet">
+<script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+<!-- banner -->
+		<div class="banner about-banner">
+			<!-- header -->
+			<div class="header">
+				<div class="container">
+					<div class="logo">
+						<h1><a class="alex" href="index.html">"Moments by AY"</a></h1>
+					</div> 
+					<div class="logo-right">
+						<p><i class="fa fa-phone" aria-hidden="true"> </i> 913-548-8058(US)/<br>9008-674164(IND)</p> 
+					</div>  
+					<div class="top-nav"> 
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+			<!-- //header -->
+			<!-- banner-text -->
+			<div class="about-banner-text"> 
+				<div class="container">
+					<ol class="breadcrumb">
+						<li><a href="gallery.html">Back</a></li> 
+						<li class="active">Album</li>
+					</ol> 
+				</div>
+			</div>
+			<!-- //banner-text -->
+		</div>
+		<!-- //banner -->  
+	<a href="#navi" class="navi-trigger"> <span class="navi-icon"> <svg x="0px" y="0px" width="54px" height="54px" viewBox="0 0 54 54"></svg> </span> </a> 
+	<!-- Hidden Navi Menu -->
+	<div id="navi" class="navi">
+		<div class="navigation-wrapper">
+			<div class="half-block">
+				<h2><a class="alex" href="index.html">"Moments by AY"</a></h2>
+				<nav>
+					<ul class="primary-navi">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="about.html">About</a></li>
+						<li><a href="services.html">Services</a></li>
+						<li><a href="gallery.html" class="selected">Gallery</a></li>
+						<li><a href="contact.html">Contact Us</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</div>	
+		<script>
+	jQuery(document).ready(function($){
+		var isLateralNavAnimating = false;
+		
+		//$('#contact_btn').click()
+		
+		//open/close lateral navigation
+		$('.navi-trigger').on('click', function(event){
+			event.preventDefault();
+			//stop if nav animation is running 
+			if( !isLateralNavAnimating ) {
+				if($(this).parents('.csstransitions').length > 0 ) isLateralNavAnimating = true; 
+				
+				$('body').toggleClass('navigation-is-open');
+				$('.navigation-wrapper').one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend', function(){
+					//animation is over
+					isLateralNavAnimating = false;
+				});
+			}
+		});
+	});
+	</script>
+<!--portfolio start here-->
+<link rel="stylesheet" href="css/swipebox.css">
+	<script src="js/jquery.swipebox.min.js"> </script> 
+	    <script type="text/javascript">
+			jQuery(function($) {
+				$(".swipebox").swipebox();
+			});
+</script>
+
+<div class="gallery" id="Work">
+		<div class="portfolio-main">
+			<div class="port-folio-top">
+				<h3>Candid Shots</h3>
+				<h4></h4>
+			</div>
+			<div class="port-folio-bottom">
+					<div id="portfoliolist">
+						<div class="col-md-4 portfolio-wrapper">		
+							<a href="images/candids/c1.jpg" class="b-link-stripe b-animate-go  swipebox"  title="Image Title">
+						     <img src="images/candids/c1t.jpg" alt=""><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03"><img src="images/plus.png" alt=""/></h2>
+						  		</div></a>
+		                </div>								
+						<div class="col-md-4 portfolio-wrapper">		
+							<a href="images/candids/c2.jpg" class="b-link-stripe b-animate-go  swipebox"  title="Image Title">
+						     <img src="images/candids/c2t.jpg" alt=""><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03"><img src="images/plus.png" alt=""/></h2>
+						  	 </div></a>
+		                </div>
+						<div class="col-md-4 portfolio-wrapper">		
+							<a href="images/candids/c3.jpg" class="b-link-stripe b-animate-go  swipebox"  title="Image Title">
+						     <img src="images/candids/c3t.jpg" alt=""><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03"><img src="images/plus.png" alt=""/></h2>
+						  	 </div></a>
+		                </div>								
+						<div class="col-md-4 portfolio-wrapper">		
+							<a href="images/candids/c4.jpg" class="b-link-stripe b-animate-go  swipebox"  title="Image Title">
+						     <img src="images/candids/c4t.jpg" alt=""><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03"><img src="images/plus.png" alt=""/></h2>
+						  	 </div></a>
+		                </div>
+						<div class="col-md-4 portfolio-wrapper">		
+							<a href="images/candids/c5.jpg" class="b-link-stripe b-animate-go  swipebox"  title="Image Title">
+						     <img src="images/candids/c5t.jpg" alt=""><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03"><img src="images/plus.png" alt=""/></h2>
+						  	 </div></a>
+		                </div>
+						<div class="col-md-4 portfolio-wrapper">		
+							<a href="images/candids/c6.jpg" class="b-link-stripe b-animate-go  swipebox"  title="Image Title">
+						     <img src="images/candids/c6t.jpg" alt=""><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03"><img src="images/plus.png" alt=""/></h2>
+						  	 </div></a>
+		                </div>	
+						<div class="col-md-4 portfolio-wrapper">		
+							<a href="images/candids/c7.jpg" class="b-link-stripe b-animate-go  swipebox"  title="Image Title">
+						     <img src="images/candids/c7t.jpg" alt=""><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03"><img src="images/plus.png" alt=""/></h2>
+						  	 </div></a>
+		                </div>
+						<div class="col-md-4 portfolio-wrapper">		
+							<a href="images/candids/c8.jpg" class="b-link-stripe b-animate-go  swipebox"  title="Image Title">
+						     <img src="images/candids/c8t.jpg" alt=""><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03"><img src="images/plus.png" alt=""/></h2>
+						  		</div></a>
+		                </div>								
+						<div class="col-md-4 portfolio-wrapper">		
+							<a href="images/candids/c9.jpg" class="b-link-stripe b-animate-go  swipebox"  title="Image Title">
+						     <img src="images/candids/c9t.jpg" alt=""><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03"><img src="images/plus.png" alt=""/></h2>
+						  	 </div></a>
+		                </div>
+						<div class="col-md-4 portfolio-wrapper">		
+							<a href="images/candids/c10.jpg" class="b-link-stripe b-animate-go  swipebox"  title="Image Title">
+						     <img src="images/candids/c10t.jpg" alt=""><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03"><img src="images/plus.png" alt=""/></h2>
+						  	 </div></a>
+		                </div>								
+						<div class="col-md-4 portfolio-wrapper">		
+							<a href="images/candids/c11.jpg" class="b-link-stripe b-animate-go  swipebox"  title="Image Title">
+						     <img src="images/candids/c11t.jpg" alt=""><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03"><img src="images/plus.png" alt=""/></h2>
+						  	 </div></a>
+		                </div>
+						<div class="col-md-4 portfolio-wrapper">		
+							<a href="images/candids/c12.jpg" class="b-link-stripe b-animate-go  swipebox"  title="Image Title">
+						     <img src="images/candids/c12t.jpg" alt=""><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03"><img src="images/plus.png" alt=""/></h2>
+						  	 </div></a>
+		                </div>
+						<div class="col-md-4 portfolio-wrapper">		
+							<a href="images/candids/c13.jpg" class="b-link-stripe b-animate-go  swipebox"  title="Image Title">
+						     <img src="images/candids/c13t.jpg" alt=""><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03"><img src="images/plus.png" alt=""/></h2>
+						  	 </div></a>
+		                </div>	
+						<div class="col-md-4 portfolio-wrapper">		
+							<a href="images/candids/c14.jpg" class="b-link-stripe b-animate-go  swipebox"  title="Image Title">
+						     <img src="images/candids/c14t.jpg" alt=""><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03"><img src="images/plus.png" alt=""/></h2>
+						  	 </div></a>
+		                </div>
+						<div class="col-md-4 portfolio-wrapper">		
+							<a href="images/candids/c15.jpg" class="b-link-stripe b-animate-go  swipebox"  title="Image Title">
+						     <img src="images/candids/c15t.jpg" alt=""><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03"><img src="images/plus.png" alt=""/></h2>
+						  	 </div></a>
+		                </div>
+						<div class="col-md-4 portfolio-wrapper">		
+							<a href="images/candids/c16.jpg" class="b-link-stripe b-animate-go  swipebox"  title="Image Title">
+						     <img src="images/candids/c16t.jpg" alt=""><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03"><img src="images/plus.png" alt=""/></h2>
+						  	 </div></a>
+		                </div>	
+						<div class="col-md-4 portfolio-wrapper">		
+							<a href="images/candids/c17.jpg" class="b-link-stripe b-animate-go  swipebox"  title="Image Title">
+						     <img src="images/candids/c17t.jpg" alt=""><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03"><img src="images/plus.png" alt=""/></h2>
+						  	 </div></a>
+		                </div>
+					<div class="clearfix"> </div>
+			</div>
+		  <div class="clearfix"> </div>
+	</div>
+	
+  </div>
+  
+</div>
+<!--portfolio end here-->
+<!-- footer -->
+		<div class="footer">
+			<div class="container">
+				<h3><a class="alex" href="index.html">"Moments by AY"</a></h3>
+				<p>© 2016 "Moments by AY". All rights reserved | Design by <a href="https://www.facebook.com/yashu327">Yashwant Palisetty</a></p>
+				<div class="social-icons">
+					<ul>
+						<li><a target="_blank"  href="http://www.facebook.com/momentsbyay" class="fa fa-facebook icon icon-border facebook"> </a></li>
+						<li><a href="#" class="fa fa-twitter icon icon-border twitter"> </a></li>
+						<li><a href="#" class="fa fa-google-plus icon icon-border googleplus"> </a></li>
+						<li><a href="#" class="fa fa-dribbble icon icon-border dribbble"> </a></li>
+						<li><a href="#" class="fa fa-rss icon icon-border rss"> </a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!-- //footer -->	
+</body>
+</html>
